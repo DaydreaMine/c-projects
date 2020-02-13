@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define number ;
+#define NUMBER 7
 int min_of(int v[], int n)
 {
     int i;
@@ -14,16 +14,16 @@ int min_of(int v[], int n)
 int main(void)
 {
     int i;
-    int n;
+    int a[NUMBER];
     int min;
 
-    printf("请输入%d个整数。\n", );
-    for (i = 0; i < n; i++)
+    printf("请输入%d个整数。\n",NUMBER);
+    for (i = 0; i < NUMBER; i++)
     {
-        printf("第[%d]个数：", i + 1); scanf("%d", &n);
+        printf("第[%d]个数：", i + 1); scanf("%d", &a[i]);
     }
 
-    min = min_of(n, );
+    min = min_of( a,NUMBER );
 
     printf("最小数为：%d\n", min);
     return 0;
