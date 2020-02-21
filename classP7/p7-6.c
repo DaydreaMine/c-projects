@@ -1,10 +1,10 @@
 #include <stdio.h>
-
+#include<stdlib.h>
 int main(){
     int x,y,z;
-    x=37000;
-    y=30000;
-    z=x+y;
-    printf("%u\n%u\n%u\n",x,y,z);
+   x=UINT16_MAX;
+    
+    printf("%u\n",x);
+    printf("%u\n",x+1);
     return 0;
 }

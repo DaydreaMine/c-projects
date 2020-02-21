@@ -8,11 +8,12 @@ int main(){
     while (a-->0)
     {
         printf("1234567890");
-        for (int i = 1; i <= b; i++)
-        {
-            printf("%d",i);
+        
         }
         
+    for (int i = 1; i <= b; i++)
+     {
+            printf("%d",i);
     }
     printf("\n");
     return 0;
